@@ -1,0 +1,54 @@
+
+
+html {
+    font-family: 'Walter turncoat', 'Open sans';
+}
+
+a {
+    transition: 1s;
+}
+
+/* Sidebar */
+
+.logo-profile {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 320px;
+    background-color: #1C3961;
+    padding-top: 60px;
+}
+
+#sidebar h1 {
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#sidebar a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#sidebar a:hover {
+    color:aqua;
+}
+
+#sidebar li {
+    padding: 26px;
+}
+
+.icon-socialMedia {
+    display: flex;
+    margin-top: -20px;
+    align-items: center;
+}
