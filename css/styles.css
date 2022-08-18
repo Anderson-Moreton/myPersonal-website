@@ -1,7 +1,7 @@
 
 
 html {
-    font-family: 'Walter turncoat', 'Open sans';
+    font-family: 'Carrois Gothic SC', 'Open sans';
 }
 
 a {
@@ -15,6 +15,7 @@ a {
     width: 140px;
     border-radius: 50%;
     border: 2px solid #FFF;
+    margin-left: 90px;
 }
 
 #sidebar {
@@ -22,21 +23,21 @@ a {
     height: 100%;
     width: 320px;
     background-color: #1C3961;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 #sidebar h1 {
     color: #FFF;
     font-size: 30px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #sidebar a {
     color: #FFF;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #sidebar a:hover {
@@ -44,11 +45,191 @@ a {
 }
 
 #sidebar li {
-    padding: 26px;
+    padding: 14px;
+    text-align: center;
+}
+
+.icon-git {
+    display: relative;
+    margin-left: 134px;
+    padding: 10px;
 }
 
 .icon-socialMedia {
     display: flex;
-    margin-top: -20px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+/*Content home*/
+.content, footer {
+    position: absolute;
+    left: 320px;
+    width: calc(100% - 320px);
+}
+
+#session-welcome, #depositions {
+    padding-left: 30px;
+}
+
+#session-welcome {
+    display: flex;
+}
+
+#session-welcome h3 {
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#session-welcome h4 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #1C3961;
+    text-align: center;
+}
+
+#session-welcome h5 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.session-welcome-content {
+    width: 60%;
+}
+
+.banner {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.about-text {
+    margin-right: 30px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.vertical {
+    margin-top: 50px;
+    border-left: 4px solid #1C3961;
+    height: 300px;
+}
+
+/*Session Deposition*/
+.title-deposition {
+    margin-top: 20px;
+    background-color: #1C3961;
+    height: 40px;
+    width: 97%;
+}
+
+.title-deposition h6 {
+    font-size: 22px;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-deposition {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -40px;
+}
+
+.deposition {
+    width: 240px;
+    border: 4px solid #1C3961;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.item-deposition {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item-deposition p {
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.item-deposition img {
+    border-radius: 50%;
+}
+
+/*----------About Me----------*/
+.banner-about {
+    margin: 50px 50px 10px 58px;
+}
+
+.session-about-content {
+    margin: 50px 20px 0px 0px;
+    text-align: justify;
+}
+
+.session-about-content h3 {
+    margin-bottom: 24px;
+}
+
+#session-about {
+    display: flex;
+}
+
+.logos1, .logos2 {
+    display: flex;
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8 {
+    border: 1px solid #1C3961;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.session-technologies {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.description-logo {
+    width: 100%;
+    margin: 10px 50px 0px 40px;
+    height: 184px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.description-logo p {
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+}
+
+hr {
+    width: 90%;
+}
+
+.logo-whatsapp {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
