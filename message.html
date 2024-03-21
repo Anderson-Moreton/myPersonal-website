@@ -1,94 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leave a message</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carrois+Gothic+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carrois+Gothic+SC&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <div id="sidebar">
-            <div class="sidebar-container">
-                <img class="logo-profile" src="img/Anderson-logo.jpg" alt="Foto de Perfil">
-                <h1>Anderson Moreton <br> Rodrigues</h1>
-                <nav>
-                    <ul>
-                        <li> <a href="index.html">Início</a> </li>
-                        <li> <a href="aboutMe.html">Sobre mim</a> </li>
-                        <li> <a href="message.html">Deixe sua mensagem</a> </li>
-                        <li> <a href="myRepository.html">Meu repositório</a> </li>
-                        <div class="icon-git">
-                            <a href="https://github.com/Anderson-Moreton"><img src="img/github.png" alt=""></a>
-                        </div>
-                        <li> <a href="session-socialMedia">Redes sociais</a> </li>
-                        <div class="icon-socialMedia">
-                            <a href="https://www.instagram.com/anderson_moreton/"><img src="img/instagram.png"
-                                    alt=""></a>
-                            <a href="https://www.linkedin.com/in/anderson-moreton-rodrigues-9984089a/"><img
-                                    src="img/linkedin.png" alt=""></a>
-                            <a href="#"><img src="img/discord.png" alt=""></a>
-                        </div>
-                    </ul>
-                </nav>
-            </div>
+      <div id="sidebar">
+        <div class="sidebar-container">
+          <img
+            class="logo-profile"
+            src="img/Anderson-logo.jpg"
+            alt="Foto de Perfil"
+          />
+          <h1>
+            Anderson Moreton <br />
+            Rodrigues
+          </h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="aboutMe.html">Sobre mim</a></li>
+              <li><a href="message.html">Deixe sua mensagem</a></li>
+              <li><a href="myRepository.html">Meu repositório</a></li>
+              <div class="icon-git">
+                <a href="https://github.com/Anderson-Moreton"
+                  ><img src="img/github.png" alt=""
+                /></a>
+              </div>
+              <li><a href="session-socialMedia">Redes sociais</a></li>
+              <div class="icon-socialMedia">
+                <a href="https://www.instagram.com/anderson_moreton/"
+                  ><img src="img/instagram.png" alt=""
+                /></a>
+                <a
+                  href="https://www.linkedin.com/in/anderson-moreton-rodrigues-9984089a/"
+                  ><img src="img/linkedin.png" alt=""
+                /></a>
+                <a href="#"><img src="img/discord.png" alt="" /></a>
+              </div>
+            </ul>
+          </nav>
         </div>
-        <div class="content">
-            <main>
-                <section id="session-message">
-                    <div class="container-message">
-                        <div class="form-upload">
-                            <h4>Deixe sua mensagem</h4>
-                            <label for="">
-                                <div class="picture-message">
-                                    <input type="file" accept="image/*" class="picture-input">
-                                    <span class="picture-image">Inserir <br> Imagem</span>
-                                </div>
-                            </label>
-                        </div>
-                        <div class="form-message">
-                            <form action="">
-                                <div class="row-box">
-                                    <label for="">Nome completo</label>
-                                    <input type="text">
-                                </div>
-                                <div class="row-box">
-                                    <label for="">E-mail</label>
-                                    <input type="email" name="" id="">
-                                </div>
-                                <div class="row-box">
-                                    <label for="">Escreva sua mensagem</label>
-                                    <textarea name="" id="" cols="30" rows="10" maxlength="200"></textarea>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="section-button">
-                            <button type="submit" style="margin: auto;">Enviar</button>
-                        </div>
+      </div>
+      <div class="content">
+        <main>
+          <section id="session-message">
+            <div class="container-message">
+              <div class="form-upload">
+                <h4>Deixe sua mensagem</h4>
+                <label for="">
+                  <div class="picture-message">
+                    <input type="file" accept="image/*" class="picture-input" />
+                    <span class="picture-image"
+                      >Inserir <br />
+                      Imagem</span
+                    >
+                  </div>
+                </label>
+              </div>
+              <div class="form-message">
+                <form action="">
+                  <div class="row-box">
+                    <label for="">Nome completo</label>
+                    <input type="text" />
+                  </div>
+                  <div class="row-box">
+                    <label for="">E-mail</label>
+                    <input type="email" name="" id="" />
+                  </div>
+                  <div class="row-box">
+                    <legend>Hobby:</legend>
+                    <div class="checkbox">
+                      <input type="checkbox" name="" id="" />
+                      <label for="">Game</label>
+
+                      <input type="checkbox" name="" id="" />
+                      <label for="">Estudar</label>
+
+                      <input type="checkbox" name="" id="" />
+                      <label for="">Esportes</label>
+
+                      <input type="checkbox" name="" id="" />
+                      <label for="">Viajar</label>
+
+                      <input type="checkbox" name="" id="" />
+                      <label for="">Academia</label>
                     </div>
-                </section>
-            </main>
-        </div>
+                  </div>
+                  <div class="row-box">
+                    <label for="">Assunto</label>
+                    <input type="subject" name="" id="" />
+                  </div>
+                  <div class="row-box">
+                    <label for="">Escreva sua mensagem</label>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                      maxlength="200"
+                    ></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="section-button">
+                <button type="submit" style="margin: auto">Enviar</button>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
     </div>
 
     <footer>
-        <div class="logo-whatsapp">
-            <img src="img/whatsapp.png" alt="">
-        </div>
-        <div>
-            <hr>
-            <p>Anderson Moreton @ 2022 - Chaves - Portugal</p>
-            <p>E-mail: anderson.moreton@gmail.com</p>
-        </div>
+      <div class="logo-whatsapp">
+        <img src="img/whatsapp.png" alt="" />
+      </div>
+      <div>
+        <hr />
+        <p>Anderson Moreton @ 2022 - Chaves - Portugal</p>
+        <p>E-mail: anderson.moreton@gmail.com</p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
