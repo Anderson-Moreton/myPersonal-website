@@ -62,25 +62,30 @@
                 <h4>Deixe sua mensagem</h4>
                 <label for="">
                   <div class="picture-message">
-                    <input type="file" accept="image/*" class="picture-input" />
-                    <span class="picture-image"
-                      >Inserir <br />
-                      Imagem</span
-                    >
+                    <label class="picture-message">
+                      <input
+                        type="file"
+                        accept="image/*"
+                        class="picture-input"
+                      />
+                      <span class="picture-image">Inserir <br />Imagem</span>
+                    </label>
                   </div>
                 </label>
               </div>
-              <div class="form-message">
+              <div class="form-message" tabindex="0">
                 <form action="">
-                  <div class="row-box">
-                    <label for="">Nome completo</label>
-                    <input type="text" />
+                  <div class="column-box">
+                    <div class="row-box">
+                      <label for="">Nome completo</label>
+                      <input type="text" />
+                    </div>
+                    <div class="row-box">
+                      <label for="">E-mail</label>
+                      <input type="email" name="" id="" />
+                    </div>
                   </div>
-                  <div class="row-box">
-                    <label for="">E-mail</label>
-                    <input type="email" name="" id="" />
-                  </div>
-                  <div class="row-box">
+                  <div class="check-box">
                     <legend>Hobby:</legend>
                     <div class="checkbox">
                       <input type="checkbox" name="" id="" />
@@ -103,8 +108,11 @@
                     <label for="">Assunto</label>
                     <input type="subject" name="" id="" />
                   </div>
+
                   <div class="row-box">
-                    <label for="">Escreva sua mensagem</label>
+                    <label for="" class="labelTextarea"
+                      >Escreva sua mensagem</label
+                    >
                     <textarea
                       name=""
                       id=""
