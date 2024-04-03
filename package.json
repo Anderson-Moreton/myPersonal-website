@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Anderson-Moreton/Projeto-Site#readme",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "express": "^4.18.1"
   }
 }

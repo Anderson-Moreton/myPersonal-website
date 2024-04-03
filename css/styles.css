@@ -337,33 +337,42 @@ textarea {
 
 /* Reporitory */
 
+.form-repository h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
 .repository{
-    background-color: red;
-    height: 300px;
-    width: auto;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .item-repository1 {
-    background-color: yellow;
+    height: 400px;
     width: 250px;
-    height: 200px;
-    margin: auto;
+    border: 1px solid #1C1C1C;
+    border-radius: 10px;
 }
 
-.item-repository2{
-    background-color: blue;
-    width: 250px;
-    height: 200px;
-    margin: auto;
+.item-repository1 img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.item-repository3{
-    background-color: green;
-    width: 250px;
-    height: 200px;
-    margin: auto;
+.item-repository1 h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item-repository1 p {
+    padding: 5px;
+    text-align: justify;
 }
 
 /*Footer*/
