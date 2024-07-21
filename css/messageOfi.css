@@ -1,14 +1,41 @@
-body{
-    background: black;
-}
-
 #side_nav{
-    background: black;
+    background: #060D15;
     min-width: 250px;
     max-width: 250px;
 }
 
 .content{
+    background: #eee;
     min-height: 100vh;
     width: 100%;
+}
+
+.sidebar li.active{
+    background: #06F3AF;
+    border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover{
+    color: black;
+}
+
+.sidebar li a {
+    color: #fff;
+}
+
+.logo-profile {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bi-github, .bi-instagram, .bi-linkedin, .bi-discord{
+    font-size: 40px;
 }
