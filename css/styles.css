@@ -12,7 +12,7 @@ a {
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    border: 2px solid #FFF;
+    border: 2px solid #3EFFBE;
     margin-left: 90px;
 }
 
@@ -39,7 +39,8 @@ a {
 }
 
 #sidebar a:hover {
-    color: #a9a9a9;
+    color: #3EFFBE;
+    transition: 0.8s;
 }
 
 #sidebar li {
