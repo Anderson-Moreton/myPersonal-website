@@ -1,3 +1,9 @@
+*{
+    font-family: "Walter Turncoat", cursive;
+    font-weight: 400;
+  }
+
+/* Sidebar */
 #side_nav{
     background: #060D15;
     min-width: 250px;
@@ -11,29 +17,13 @@
     width: 100%;
 }
 
-.sidebar li.active{
-    background: #eee;
-    border-radius: 8px;
-}
-
-.sidebar li.active a, .sidebar li.active a:hover{
-    color: black;
-}
+.sidebar li a, .sidebar li a:hover{
+    color: #3EFFBE;
+    transition: 1s;
+} 
 
 .sidebar li a {
     color: #fff;
-}
-
-@media(max-width:767px){
-    #side_nav{
-        margin-left: -250px;
-        position: fixed;
-        min-height: 100vh;
-        z-index: 1;
-    }
-    #side_nav.active{
-        margin-left: 0;
-    }
 }
 
 .logo-profile {
@@ -41,6 +31,7 @@
     width: 140px;
     border-radius: 50%;
     border: 2px solid #FFF;
+    margin: 12px 45px;
 }
 
 .icons{
@@ -51,7 +42,9 @@
 .bi-github, .bi-instagram, .bi-linkedin, .bi-discord{
     font-size: 40px;
 }
+/* End Sidebar */
 
+/* ----- Message page ----- */
 .form-upload {
     width: 100%;
     height: 200px;
@@ -62,7 +55,6 @@
 }
 
 .form-upload h4 {
-    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 22px;
 }
@@ -121,8 +113,8 @@
 
 .row-box label {
     display: flex;
-    margin-bottom: 4px;
-    margin-top: 10px;
+    margin-bottom: -2px;
+    margin-top: 0px;
 }
 
 .row-box input {
@@ -145,12 +137,12 @@
     margin-top: 10px;
 }
 .check-box label {
-    margin-left: -30px;
+    margin-left: -10px;
 }
 
 textarea {
-    width: 78vh;
-    height: 8vh;
+    width: 80vh;
+    height: 10vh;
     border-radius: 5px;
     background-color: #DCDCDC;
     border: 1px solid #1C1C1C;
@@ -158,7 +150,7 @@ textarea {
 }
 
 .section-button {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .section-button button {
@@ -173,5 +165,19 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-
 /* ----- END Message page----- */
+
+@media(max-width:767px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active{
+        margin-left: 0;
+    }
+}
+
+
+
