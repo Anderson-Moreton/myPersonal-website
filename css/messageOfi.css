@@ -23,7 +23,7 @@
 } 
 
 .sidebar li a {
-    color: #fff;
+    color: #FFF;
 }
 
 .logo-profile {
@@ -31,7 +31,7 @@
     width: 140px;
     border-radius: 50%;
     border: 2px solid #FFF;
-    margin: 12px 45px;
+    margin: 30px 45px;
 }
 
 .icons{
@@ -39,9 +39,33 @@
     justify-content: space-around;  
 }
 
-.bi-github, .bi-instagram, .bi-linkedin, .bi-discord{
-    font-size: 40px;
+.bi-x-square{
+    margin-left: 200px;
 }
+
+.bi-github, .bi-instagram, .bi-linkedin, .bi-discord{
+    font-size: 30px;
+}
+
+/* NAVBAR Expand */
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #060D15;
+    
+}
+
+a.navbar-brand.fs-4{
+    color: #FFF;
+}
+
+.bi-list::before{
+    color: #FFF;
+}
+/* End NAVBAR Expand */
+
 /* End Sidebar */
 
 /* ----- Message page ----- */

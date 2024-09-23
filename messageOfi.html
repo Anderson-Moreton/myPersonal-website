@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leave a message</title>
     <link rel="stylesheet" href="css/messageOfi.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap"
+      rel="stylesheet"
+    />
     <script src="js/scripts.js" defer></script>
 
     <!-- Icons -->
@@ -30,128 +33,118 @@
       crossorigin="anonymous"
     ></script>
   </head>
- 
+
   <body>
     <div class="main-container d-flex">
       <div class="sidebar" id="side_nav">
         <div class="header-box px-2 pt-3 pb-4">
-          <img class="logo-profile" src="img/andersonMoreton.jpeg" alt="Foto de Perfil">
-          <h1 class="fs-4 text-center"><span class="text-white">Anderson Moreton <br>Rodrigues</span></h1>
-          <button class="btn d-md-none d-block close-btn px-1 py-0 text-white"><i class="bi bi-list"></i></button>
+          <button class="btn d-md-none close-btn px-1 py-0 text-white">
+            <i class="bi bi-x-square"></i>
+          </button>
+          <img
+            class="logo-profile"
+            src="img/andersonMoreton.jpeg"
+            alt="Foto de Perfil"
+          />
+          <h1 class="fs-4 text-center">
+            <span class="text-white">Anderson Moreton <br />Rodrigues</span>
+          </h1>
         </div>
-          <ul class="list-unstyled px-2">
-            <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-house-door"></i> Home</a></li>
-            <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-file-earmark-person"></i> About me</a></li>
-            <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-envelope"></i> Leave your message</a></li>
-            <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-person-workspace"></i> My repository</a></li>
-            <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-github"></i></a></li>
-            <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-person-workspace"></i> Social Media</a></li>
-            <div class="icons">
-              <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-instagram"></i></a></li>
-              <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-linkedin"></i></a></li>
-              <li><a href="" class="text-decoration-none text-center px-3 py-2 d-block"><i class="bi bi-discord"></i></a></li>
-            </div>
-          </ul>
-
+        <ul class="list-unstyled px-2">
+          <li>
+            <a
+              href=""
+              class="text-decoration-none text-center px-3 py-2 d-block"
+              ><i class="bi bi-house-door"></i> Home</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none text-center px-3 py-2 d-block"
+              ><i class="bi bi-file-earmark-person"></i> About me</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none text-center px-3 py-2 d-block"
+              ><i class="bi bi-envelope"></i> Leave your message</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none text-center px-3 py-2 d-block"
+              ><i class="bi bi-person-workspace"></i> My repository</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none text-center px-3 py-2 d-block"
+              ><i class="bi bi-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="text-decoration-none text-center px-3 py-2 d-block"
+              ><i class="bi bi-person-workspace"></i> Social Media</a
+            >
+          </li>
+          <div class="icons">
+            <li>
+              <a
+                href=""
+                class="text-decoration-none text-center px-3 py-2 d-block"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-decoration-none text-center px-3 py-2 d-block"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="text-decoration-none text-center px-3 py-2 d-block"
+                ><i class="bi bi-discord"></i
+              ></a>
+            </li>
+          </div>
+        </ul>
       </div>
       <div class="content">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <div class="d-flex justify-content-between d-md-none d-block">
               <a class="navbar-brand fs-4" href="#">Anderson Moreton</a>
-              <button class="btn px-1 py-0 open-btn"><i class="bi bi-list"></i></button>
+              <button class="btn px-1 py-0 open-btn">
+                <i class="bi bi-list"></i>
+              </button>
             </div>
           </div>
         </nav>
         <main>
-            <div class="container-message">
-              <div class="form-upload">
-                <h4>Deixe sua mensagem</h4>
-                <div class="picture-message">
-                  <form class="box" id="form-form">
-                    <div class="image-upload box">
-                      <img id="image-preview" src="" class="picture-message h-100" />
-                      <i class="bi bi-image"></i>
-                      <input
-                        id="image-field"
-                        type="file"
-                        accept="image/*"
-                      />
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="form-message" tabindex="0">
-                <form action="">
-                  <div class="column-box">
-                    <div class="row-box">
-                      <label for="">Nome completo</label>
-                      <input type="text" />
-                    </div>
-                    <div class="row-box">
-                      <label for="">E-mail</label>
-                      <input type="email" name="" id="" />
-                    </div>
-                  </div>
-                  <div class="check-box">
-                    <legend>Hobby:</legend>
-                    <div class="checkbox">
-                      <input type="checkbox" name="" id="" />
-                      <label for="">Game</label>
 
-                      <input type="checkbox" name="" id="" />
-                      <label for="">Estudar</label>
+          <!-- Fazer o código do formulário -->
 
-                      <input type="checkbox" name="" id="" />
-                      <label for="">Esporte</label>
-
-                      <input type="checkbox" name="" id="" />
-                      <label for="">Viajar</label>
-
-                      <input type="checkbox" name="" id="" />
-                      <label for="">Academia</label>
-
-                      <input type="checkbox" name="" id="" />
-                      <label for="">Outro</label>
-
-                    </div>
-                  </div>
-                  <div class="row-box">
-                    <label for="">Assunto</label>
-                    <input type="subject" name="" id="" />
-                  </div>
-
-                  <div class="row-box">
-                    <label for="" class="labelTextarea"
-                      >Escreva sua mensagem</label
-                    >
-                    <textarea
-                      name=""
-                      id=""
-                      cols="30"
-                      rows="10"
-                      maxlength="200"
-                    ></textarea>
-                  </div>
-                </form>
-              </div>
-              <div class="section-button">
-                <button type="submit" style="margin: auto">Enviar</button>
-              </div>
-            </div>
         </main>
       </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
-      $('.open-btn').on('click', function(){
-        $('.sidebar').addClass('active');
+      $(".open-btn").on("click", function () {
+        $(".sidebar").addClass("active");
       });
-      $('.close-btn').on('click', function(){
-        $('.sidebar').removeClass('active');
+      $(".close-btn").on("click", function () {
+        $(".sidebar").removeClass("active");
       });
     </script>
-
   </body>
 </html>
