@@ -130,9 +130,129 @@
           </div>
         </nav>
         <main>
-
-          <!-- Fazer o código do formulário -->
-
+          <section id="session-message">
+            <div class="container-message">
+              <div class="form-upload">
+                <h4>Deixe sua mensagem</h4>
+                <div class="picture-message">
+                  <form class="box" id="form-form">
+                    <div class="image-upload box">
+                      <img
+                        id="image-preview"
+                        src=""
+                        class="picture-message h-100"
+                      />
+                      <i class="bi bi-image"></i>
+                      <input id="image-field" type="file" accept="image/*" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <form>
+                <div class="d-flex justify-content-center">
+                  <div class="col-md-3">
+                    <label for="inputEmail4">Nome</label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-3">
+                    <label for="inputPassword4">Sobrenome</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                  </div>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email Address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="nome@exemplo.com"
+                  />
+                </div>
+                <div class="col-md-6 offset-md-3">
+                  <p class="mb-1">Hobby</p>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="opcao1"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox1"
+                      >Games</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox2"
+                      value="opcao2"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox2"
+                      >Estudos</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox3"
+                      value="opcao3"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox3"
+                      >Esportes</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox4"
+                      value="opcao4"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox4"
+                      >Viagens</label
+                    >
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox5"
+                      value="opcao5"
+                    />
+                    <label class="form-check-label" for="inlineCheckbox5"
+                      >Academia</label
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                  <label for="exampleFormControlSelect1" class="form-label"
+                    >Assunto</label
+                  >
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option selected>Escolha um assunto</option>
+                    <option>Elogio</option>
+                    <option>Sujestão</option>
+                    <option>Crítica</option>
+                  </select>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Deixe sua mensagem</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="2"
+                  ></textarea>
+                </div>
+                <div class="d-flex justify-content-center m-3">
+                  <button type="submit" id="buttonSubmit" class="btn btn-secondary btn-sm">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </section>
         </main>
       </div>
     </div>

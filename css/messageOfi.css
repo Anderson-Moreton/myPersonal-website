@@ -31,7 +31,7 @@
     width: 140px;
     border-radius: 50%;
     border: 2px solid #FFF;
-    margin: 30px 45px;
+    margin: 20px 45px;
 }
 
 .icons{
@@ -129,65 +129,12 @@ a.navbar-brand.fs-4{
     }
 }
 
-.form-message {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row-box label {
-    display: flex;
-    margin-bottom: -2px;
-    margin-top: 0px;
-}
-
-.row-box input {
-    width: 80vh;
-    border-radius: 5px;
-    height: 10px;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #DCDCDC;
-    border: 1px solid #1C1C1C;
-}
-
-.checkbox {
-    display: flex;
-    justify-content: space-between;
-}
-
-.check-box legend {
-    margin-bottom: 4px;
-    margin-top: 10px;
-}
-.check-box label {
-    margin-left: -10px;
-}
-
-textarea {
-    width: 80vh;
-    height: 10vh;
-    border-radius: 5px;
-    background-color: #DCDCDC;
-    border: 1px solid #1C1C1C;
-    padding: 10px;
-}
-
-.section-button {
-    margin-top: 10px;
-}
-
-.section-button button {
-    font-size: 20px;
-    background-color: #1C1C1C; 
-    color:#FFF;
-    border: none;
-    border-radius: 5px;
-    width: 120px;
+#buttonSubmit {
+    background-color: #060D15;
+    font-size: 18px;
+    width: 130px;
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 10px;
 }
 /* ----- END Message page----- */
 
