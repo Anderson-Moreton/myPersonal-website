@@ -70,20 +70,27 @@ a.navbar-brand.fs-4{
 
 
 /* ----------About Me---------- */
-.imgAbout {
+/* .imgAbout {
     background-color: red;
-}
+} */
 
 .imgAbout img {
-    margin-top: 60px;
+    margin-top: 78px;
+    margin-left: 10px;
 }
 
 .about-text {
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.titleAboutMe {
+    margin-top: 20px;
 }
 
 .pOne, .pTwo, .pThree, .pFour {
-    background-color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
 .logos1, .logos2 {
@@ -102,12 +109,12 @@ a.navbar-brand.fs-4{
 .session-technologies {
     display: flex;
     margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .description-logo {
     width: 100%;
-    margin: 10px 50px 0px 40px;
+    margin: 20px 60px 0px 40px;
     height: 184px;
     display: flex;
     justify-content: center;
