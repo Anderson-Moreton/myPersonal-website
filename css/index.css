@@ -70,8 +70,8 @@ a.navbar-brand.fs-4{
 
 /*Content home*/
 
-/* #session-welcome h3 {
-    margin-top: 40px;
+#session-welcome h3 {
+    margin-top: 30px;
     font-size: 22px;
     text-align: center;
 }
@@ -83,28 +83,28 @@ a.navbar-brand.fs-4{
     font-size: 16px;
 }
 
-.session-welcome-content {
+/* .session-welcome-content {
     width: 60%;   
-}
+} */
 
-.banner {
+/* .banner {
     width: 60%;    
     margin-top: 40px;
     margin-left: 30px;
-}
+} */
 
-.banner img {
+/* .banner img {
     border-radius:10px;
     height: 300px;
     margin-left: 40px;
-}
+} */
 
 .about-text {
     margin-right: 20px;
     margin-left: 20px;
     text-align: justify;
     font-size: 14px;
-} */
+} 
 
 .vertical {
     margin-top: 50px;
