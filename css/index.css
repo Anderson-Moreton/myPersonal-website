@@ -83,42 +83,28 @@ a.navbar-brand.fs-4{
     font-size: 16px;
 }
 
-/* .session-welcome-content {
-    width: 60%;   
-} */
-
-/* .banner {
-    width: 60%;    
-    margin-top: 40px;
-    margin-left: 30px;
-} */
-
-/* .banner img {
+.banner img {
     border-radius:10px;
     height: 300px;
-    margin-left: 40px;
-} */
+    width: 90%;
+    margin-top: 30px;
+}
 
 .about-text {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-left: 20px;
     text-align: justify;
     font-size: 14px;
-} 
-
-.vertical {
-    margin-top: 50px;
-    border-left: 1px solid #1C1C1C;
-    height: 280px;
 } 
 
 /*Session Deposition*/
 
 .title-deposition {
     margin-top: 20px;
+    margin-left: 20px;
     background-color: #1C1C1C;
     height: 40px;
-    width: 97%;
+    width: 96%;
 }
 
 .title-deposition h6 {
@@ -129,11 +115,10 @@ a.navbar-brand.fs-4{
 }
 
 .card-deposition {
-    display: flex;
     justify-content: space-around;
     width: 90%;
-    margin: 20px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 .deposition {
