@@ -100,7 +100,7 @@ a.navbar-brand.fs-4{
 /*Session Deposition*/
 
 .title-deposition {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 20px;
     background-color: #1C1C1C;
     height: 40px;
@@ -151,6 +151,23 @@ a.navbar-brand.fs-4{
     font-weight: bold;
     font-size: 12px;
 }
+
+/*Footer*/
+.bi-whatsapp {
+    color: green;
+    font-size: 30px;
+}
+
+.line {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+}
+/* End Footer */
 
 
 @media(max-width:767px){

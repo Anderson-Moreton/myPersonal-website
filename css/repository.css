@@ -1,3 +1,71 @@
+*{
+    font-family: Candara;
+    font-weight: 400;
+  }
+
+/* Sidebar */
+#side_nav{
+    background: #060D15;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+.content{
+    background: #eee;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sidebar li a, .sidebar li a:hover{
+    color: #3EFFBE;
+    transition: 1s;
+} 
+
+.sidebar li a {
+    color: #FFF;
+}
+
+.logo-profile {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    margin: 20px 45px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.bi-x-square{
+    margin-left: 200px;
+}
+
+.bi-github, .bi-instagram, .bi-linkedin, .bi-discord{
+    font-size: 30px;
+}
+
+/* NAVBAR Expand */
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #060D15;
+    
+}
+
+a.navbar-brand.fs-4{
+    color: #FFF;
+}
+
+.bi-list::before{
+    color: #FFF;
+}
+/* End NAVBAR Expand */
+
 /* Reporitory */
 .form-repository h4 {
     margin-top: 40px;
@@ -52,3 +120,15 @@
     justify-content: center;
 }
 /* End Repository */
+
+@media(max-width:767px){
+    #side_nav{
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active{
+        margin-left: 0;
+    }
+}
