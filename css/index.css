@@ -102,7 +102,8 @@ a.navbar-brand.fs-4{
 .title-deposition {
     margin-top: 10px;
     margin-left: 20px;
-    background-color: #1C1C1C;
+    background-color: #060D15;
+    ;
     height: 40px;
     width: 96%;
 }
@@ -124,7 +125,7 @@ a.navbar-brand.fs-4{
 .deposition {
     width: 240px;
     height: 120px;
-    border: 1px solid #1C1C1C;
+    border: 1px solid #060D15;
     border-radius: 10px;
     text-align: justify;
     padding: 10px;
