@@ -101,11 +101,9 @@ a.navbar-brand.fs-4{
 
 .title-deposition {
     margin-top: 10px;
-    margin-left: 20px;
     background-color: #060D15;
-    ;
-    height: 40px;
-    width: 96%;
+    height: 36px;
+    width: auto;
 }
 
 .title-deposition h6 {
@@ -117,9 +115,9 @@ a.navbar-brand.fs-4{
 
 .card-deposition {
     justify-content: space-around;
-    width: 90%;
+    width: auto;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 .deposition {
@@ -154,13 +152,21 @@ a.navbar-brand.fs-4{
 }
 
 /*Footer*/
+/* .footer {
+    
+}
+
+.item-whatsapp {
+    
+} */
+
 .bi-whatsapp {
     color: green;
     font-size: 30px;
 }
 
 .line {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 footer p {

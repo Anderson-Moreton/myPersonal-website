@@ -54,7 +54,7 @@
         <ul class="list-unstyled px-2">
           <li>
             <a
-              href=""
+              href="#"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-house-door"></i> Home
@@ -62,7 +62,7 @@
           </li>
           <li>
             <a
-              href=""
+              href="./aboutMe.html"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-file-earmark-person"></i> About me
@@ -70,7 +70,7 @@
           </li>
           <li>
             <a
-              href=""
+              href="./message.html"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-envelope"></i> Leave your message
@@ -78,7 +78,7 @@
           </li>
           <li>
             <a
-              href=""
+              href="./myRepository.html"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-person-workspace"></i> My repository
@@ -86,7 +86,7 @@
           </li>
           <li>
             <a
-              href=""
+              href="https://github.com/Anderson-Moreton"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-github"></i>
@@ -94,7 +94,7 @@
           </li>
           <li>
             <a
-              href=""
+              href="#"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-person-workspace"></i> Social Media
@@ -111,14 +111,14 @@
             </li>
             <li>
               <a
-                href=""
+                href="https://www.linkedin.com/in/anderson-moreton-rodrigues-9984089a/"
                 class="text-decoration-none text-center px-3 py-2 d-block"
                 ><i class="bi bi-linkedin"></i
               ></a>
             </li>
             <li>
               <a
-                href=""
+                href="https://discord.com/channels/@me"
                 class="text-decoration-none text-center px-3 py-2 d-block"
                 ><i class="bi bi-discord"></i
               ></a>
@@ -151,8 +151,8 @@
                   <div class="about-text">
                     <p>
                       Esse projeto foi desenvolvido com o intuito de praticar,
-                      demonstrar e utilizar algumas técnologias
-                      para desenvolvimento web.
+                      demonstrar e utilizar algumas técnologias para
+                      desenvolvimento web.
                     </p>
                     <p>
                       A intenção de mostrar alguns tópicos, é justamente para
@@ -171,13 +171,15 @@
                 </div>
 
                 <div class="banner col-6">
-                  <img src="img/photoMenu.jpg" alt="" />
+                  <img src="img/photoMenu.jpg" class="img-thumbnail" alt="" />
                 </div>
               </div>
             </section>
 
-            <section id="depositions">
-              <div class="title-deposition">
+            <section id="depositions" class="container">
+              <div
+                class="title-deposition col-md-12 d-flex justify-content-center align-items-center"
+              >
                 <h6>Depoimentos</h6>
               </div>
               <div class="card-deposition d-flex">
@@ -216,19 +218,19 @@
           </div>
         </main>
         <footer>
-          <div class="position-absolute bottom-1 end-0">
-            <i class="bi bi-whatsapp"></i>
+          <div class="footer">
+            <div class="float-end">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <hr class="line" />
+              <p>&copy Anderson Moreton</p>
+              <p>anderson.moreton@gmail.com</p>
+            </div>
           </div>
-          <div class="d-flex flex-column justify-content-center">
-            <hr class="line">
-            <p>&copy Anderson Moreton</p>
-            <p>anderson.moreton@gmail.com</p>
-          </div>
-      </footer>
+        </footer>
       </div>
     </div>
-
-    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script>
@@ -239,6 +241,5 @@
         $(".sidebar").removeClass("active");
       });
     </script>
-
   </body>
 </html>
