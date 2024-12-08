@@ -114,13 +114,10 @@ a.navbar-brand.fs-4{
 
 .card-deposition {
     justify-content: space-around;
-    width: auto;
     margin-top: 20px;
 }
 
 .deposition {
-    width: 260px;
-    height: 120px;
     border: 1px solid #060D15;
     border-radius: 10px;
     text-align: justify;
@@ -145,9 +142,10 @@ a.navbar-brand.fs-4{
     border-radius: 50%;
 }
 
-.deposition p {
+.depoiment {
     font-weight: bold;
     font-size: 12px;
+    margin-bottom: 0px;
 }
 
 /*Footer*/
@@ -162,18 +160,20 @@ a.navbar-brand.fs-4{
 .bi-whatsapp {
     color: green;
     font-size: 30px;
+    background-color: red;
 }
 
 .line {
     width: 90%;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 footer p {
     font-size: 14px;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 /* End Footer */
 
