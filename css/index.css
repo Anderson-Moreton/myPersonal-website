@@ -149,8 +149,10 @@ a.navbar-brand.fs-4{
 }
 
 /*Footer*/
-/* .footer {
-    
+.logo-whatsApp {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
 }
 
 .bi-whatsapp {
