@@ -98,6 +98,7 @@ a.navbar-brand.fs-4{
     height: 100%;
 }
 
+
 #form-form {
     & .image-upload {
         position:relative;
@@ -116,7 +117,7 @@ a.navbar-brand.fs-4{
     & .image-upload i {
         position: absolute;
         margin: 0 auto;
-        font-size: 20px;
+        font-size: 24px;
         color: #1C1C1C;
     }
 

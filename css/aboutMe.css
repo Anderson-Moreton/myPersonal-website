@@ -77,6 +77,7 @@ a.navbar-brand.fs-4{
 .imgAbout img {
     margin-top: 78px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 .about-text {
@@ -90,11 +91,30 @@ a.navbar-brand.fs-4{
 .pOne, .pTwo, .pThree, .pFour {
     margin-top: -10px;
     margin-bottom: 10px;
+    margin-right: 20px;
     text-align: justify;
 }
 
-.logos1, .logos2 {
-    display: flex;
+.title-habilities {
+    background-color: #060D15;
+    height: 36px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.title-habilities h6 {
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.logos1{
+    margin-top: 14px;
+}
+
+.logos2{
+    margin-top: -18px;
 }
 
 .logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8 {
@@ -102,20 +122,11 @@ a.navbar-brand.fs-4{
     border-radius: 10px;
     width: 80px;
     height: 80px;
-    margin: 10px;
+    margin: 14px;
     list-style-type: none;
 }
 
-.session-technologies {
-    display: flex;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
 .description-logo {
-    width: 100%;
-    margin: 20px 60px 0px 40px;
-    height: 184px;
     display: flex;
     justify-content: center;
     align-items: center;

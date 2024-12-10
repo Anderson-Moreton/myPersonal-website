@@ -151,8 +151,8 @@ a.navbar-brand.fs-4{
 /*Footer*/
 .logo-whatsApp {
     position: fixed;
-    right: 20px;
-    bottom: 30px;
+    right: 4px;
+    bottom: 40px;
 }
 
 .bi-whatsapp {
@@ -161,7 +161,7 @@ a.navbar-brand.fs-4{
 }
 
 .line {
-    width: 94%;
+    width: 96%;
     margin: 10px
 }
 
