@@ -98,7 +98,6 @@ a.navbar-brand.fs-4{
     height: 100%;
 }
 
-
 #form-form {
     & .image-upload {
         position:relative;
@@ -136,7 +135,14 @@ a.navbar-brand.fs-4{
     width: 130px;
     height: 40px;
     border-radius: 10px;
+    box-shadow: 1px 3px 12px #1C1C1C;
+    transition: all 0.3s;
 }
+
+#buttonSubmit:hover{
+    color: #3EFFBE;
+    transition: 1s;
+} 
 /* ----- END Message page----- */
 
 @media(max-width:767px){
