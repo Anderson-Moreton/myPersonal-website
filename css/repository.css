@@ -75,34 +75,28 @@ a.navbar-brand.fs-4{
     justify-content: center;
 }
 
-.repository{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.item-repository {
+#card-item{
     border: 2px solid #1C1C1C;
-    border-radius: 10px;
 }
 
-.item-repository img {
-    height: 50%;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.card img {
+    height: 260px;
+    width: auto;
 }
 
-.item-repository h3 {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+.card-title{
+    margin-left: 10px;
 }
 
-.item-repository p {
+.card-text {
     padding: 2.5px;
     text-align: justify;
     margin: 5px auto;
+    padding: 0 10px;
+}
+
+.card-button {
+    margin: 10px auto;
 }
 
 .card-button button {
@@ -110,10 +104,11 @@ a.navbar-brand.fs-4{
     font-size: 18px; 
     color:#FFF;
     border: none;
-    border-radius: 10px;
-    box-shadow: 1px 3px 12px #1C1C1C;
-    width: 130px;
-    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 12px #1C1C1C; 
+    padding: 8px;  
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
