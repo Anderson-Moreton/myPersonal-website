@@ -67,6 +67,12 @@ a.navbar-brand.fs-4{
 /* End NAVBAR Expand */
 
 /* Reporitory */
+
+#repository {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .form-repository h4 {
     margin-top: 40px;
     margin-bottom: 40px;
