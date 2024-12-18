@@ -112,11 +112,6 @@ a.navbar-brand.fs-4{
     margin-top: 8px;
 }
 
-.card-deposition {
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
 .deposition {
     border: 1px solid #060D15;
     border-radius: 10px;
