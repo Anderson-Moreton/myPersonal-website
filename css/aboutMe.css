@@ -112,21 +112,25 @@ a.navbar-brand.fs-4{
     margin-top: 8px;
 }
 
-.logos1{
-    margin-top: 14px;
+.group-1, .group-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logos2{
-    margin-top: -18px;
+.group-1 img, .group-2 img{
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8 {
     border: 1px solid #1C1C1C;
     border-radius: 10px;
-    width: 80px;
-    height: 80px;
-    margin: 14px;
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
 }
 
 .description-logo {
