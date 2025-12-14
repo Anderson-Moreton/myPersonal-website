@@ -70,7 +70,7 @@ a.navbar-brand.fs-4{
 
 /*Content home*/
 
-#session-welcome h3 {
+ #session-welcome h3 {
     margin-top: 30px;
     font-size: 22px;
     text-align: center;
@@ -140,7 +140,7 @@ a.navbar-brand.fs-4{
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 0px;
-}
+} */
 
 /*Footer*/
 .logo-whatsApp {
@@ -163,6 +163,7 @@ footer p {
     font-size: 14px;
     text-align: center;
 }
+
 /* End Footer */
 
 
