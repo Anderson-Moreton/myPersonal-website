@@ -1,5 +1,5 @@
-const imageField = document.getElementById("image-field");
-const imagePreview = document.getElementById("image-preview");
+const imageField = document.querySelector("#image-field");
+const imagePreview = document.querySelector("#image-preview");
 
 const loadImage = (e) => {
 
