@@ -15,16 +15,7 @@
     background: #eee;
     min-height: 100vh;
     width: 100%;
-}
-
-.sidebar li a, .sidebar li a:hover{
-    color: #3EFFBE;
-    transition: 1s;
 } 
-
-.sidebar li a {
-    color: #FFF;
-}
 
 .logo-profile {
     height: 140px;
@@ -32,6 +23,30 @@
     border-radius: 50%;
     border: 2px solid #FFF;
     margin: 20px 45px;
+}
+
+h1::after{
+    content: '|';
+    color: #FFF;
+    opacity: 1;
+    animation: flashing 1s infinite;   
+}
+
+@keyframes flashing{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+.sidebar li a, .sidebar li a:hover{
+    color: #3EFFBE;
+    transition: 1s;
+}
+
+.sidebar li a {
+    color: #FFF;
 }
 
 .icons{
@@ -145,6 +160,20 @@ a.navbar-brand.fs-4{
     transition: 1s;
 } 
 /* ----- END Message page----- */
+
+/* Input*/
+form .colorInput{
+    border: 1px solid #B5B1A7;
+}
+
+form .colorInput:focus {
+  border-color: #3EFFBE; /* Muda a cor para azul quando focado */
+  outline: none; /* Opcional: remove o contorno padrão azul/preto */
+}
+
+input[type="radio"]:checked {
+    background-color: #060D15;
+}
 
 @media(max-width:767px){
     #side_nav{

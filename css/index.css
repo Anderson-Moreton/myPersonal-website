@@ -15,16 +15,7 @@
     background: #eee;
     min-height: 100vh;
     width: 100%;
-}
-
-.sidebar li a, .sidebar li a:hover{
-    color: #3EFFBE;
-    transition: 1s;
 } 
-
-.sidebar li a {
-    color: #FFF;
-}
 
 .logo-profile {
     height: 140px;
@@ -32,6 +23,30 @@
     border-radius: 50%;
     border: 2px solid #FFF;
     margin: 20px 45px;
+}
+
+h1::after{
+    content: '|';
+    color: #FFF;
+    opacity: 1;
+    animation: flashing 1s infinite;   
+}
+
+@keyframes flashing{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+.sidebar li a, .sidebar li a:hover{
+    color: #3EFFBE;
+    transition: 1s;
+}
+
+.sidebar li a {
+    color: #FFF;
 }
 
 .icons{
@@ -83,10 +98,15 @@ a.navbar-brand.fs-4{
 }
 
 .banner img {
-    border-radius:10px;
+    border-radius: 10px;
+    padding: 2px;
     height: 300px;
     width: 100%;
     margin-top: 40px;
+    /* object-fit: cover; */
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .about-text {
@@ -103,7 +123,7 @@ a.navbar-brand.fs-4{
     margin-top: 10px;
 }
 
-.title-deposition h6 {
+.title-deposition h4 {
     font-size: 20px;
     color: #FFF;
     text-align: center;
@@ -114,14 +134,10 @@ a.navbar-brand.fs-4{
     border: 1px solid #060D15;
     border-radius: 10px;
     text-align: justify;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
     margin-top: 10px;
-}
-
-.item-deposition {
-    display: flex;
-    justify-content: space-between;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .titleDepoiment {
@@ -130,9 +146,14 @@ a.navbar-brand.fs-4{
     font-weight: bold;
 }
 
-.item-deposition img {
-    margin-top: -5px;
-    margin-right: 5px;
+.item-deposition span {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.image-deposition img{
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
 }
 
@@ -140,19 +161,9 @@ a.navbar-brand.fs-4{
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 0px;
-} */
+} 
 
 /*Footer*/
-.logo-whatsApp {
-    position: fixed;
-    right: 4px;
-    bottom: 40px;
-}
-
-.bi-whatsapp {
-    color: green;
-    font-size: 30px;
-}
 
 .line {
     width: 96%;
@@ -161,7 +172,7 @@ a.navbar-brand.fs-4{
 
 footer p {
     font-size: 14px;
-    text-align: center;
+
 }
 
 /* End Footer */

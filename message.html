@@ -52,8 +52,9 @@
             src="img/andersonMoreton.jpeg"
             alt="Foto de Perfil"
           />
-          <h1 class="fs-4 text-center">
-            <span class="text-white">Anderson Moreton <br />Rodrigues</span>
+          <h1 class="fs-4 text-center text-white" id="typewriter-text">
+            Anderson Moreton <br />
+            Rodrigues
           </h1>
         </div>
         <ul class="list-unstyled px-2">
@@ -67,7 +68,7 @@
           </li>
           <li>
             <a
-              href="./aboutMe.html"
+              href="#"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-file-earmark-person"></i> About me
@@ -75,7 +76,7 @@
           </li>
           <li>
             <a
-              href="#"
+              href="./message.html"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-envelope"></i> Leave your message
@@ -90,7 +91,8 @@
             </a>
           </li>
           <li>
-            <a target="_blank"
+            <a
+              target="_blank"
               href="https://github.com/Anderson-Moreton"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
@@ -107,7 +109,8 @@
           </li>
           <div class="icons">
             <li>
-              <a target="_blank"
+              <a
+                target="_blank"
                 href="https://www.instagram.com/moretons_family/"
                 class="text-decoration-none text-center px-3 py-2 d-block"
               >
@@ -115,14 +118,16 @@
               </a>
             </li>
             <li>
-              <a target="_blank"
+              <a
+                target="_blank"
                 href="https://www.linkedin.com/in/anderson-moreton-rodrigues-9984089a/"
                 class="text-decoration-none text-center px-3 py-2 d-block"
                 ><i class="bi bi-linkedin"></i
               ></a>
             </li>
             <li>
-              <a target="_blank"
+              <a
+                target="_blank"
                 href="https://discord.com/channels/@moreton_anderson"
                 class="text-decoration-none text-center px-3 py-2 d-block"
                 ><i class="bi bi-discord"></i
@@ -144,114 +149,143 @@
           </div>
         </nav>
         <main>
-          <section>
-            <div class="container">
-              <div class="form-upload">
-                <h4>Deixe sua mensagem</h4>
-                <div class="picture-message">
-                  <form class="box" id="form-form">
-                    <div class="image-upload box">
-                      <img
-                        id="image-preview"
-                        src=""
-                        class="picture-message h-100"
-                      />
-                      <i class="bi bi-card-image"></i>
-                      <input id="image-field" type="file" accept="image/*" />
-                    </div>
-                  </form>
-                </div>
+          <div class="container">
+            <div class="form-upload mt-0">
+              <h4>Deixe sua mensagem</h4>
+              <div class="picture-message">
+                <form class="box" id="form-form">
+                  <div class="image-upload box">
+                    <img
+                      id="image-preview"
+                      src=""
+                      class="picture-message h-100"
+                    />
+                    <i class="bi bi-card-image"></i>
+                    <input id="image-field" type="file" accept="image/*" />
+                  </div>
+                </form>
               </div>
-              <form>
-                <div class="d-flex justify-content-center">
-                  <div class="col-md-2 mb-2 me-2">
-                    <label for="inputEmail4">First Name</label>
-                    <input type="text" class="aaa form-control" id="inputEmail4">
-                  </div>
-                  <div class="col-md-4 mb-2">
-                    <label for="inputPassword4">Last Name</label>
-                    <input type="text" class="form-control" id="inputPassword4">
-                  </div>
-                </div>
-                <div class="col-md-6 offset-md-3 mb-2">
-                  <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+            </div>
+            <form>
+              <div class="d-flex justify-content-center">
+                <div class="col-md-2 mb-2 me-2">
+                  <label for="inputEmail4">First Name</label>
                   <input
-                    type="email"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="nome@exemplo.com"
+                    type="text"
+                    class="form-control colorInput"
+                    id="inputEmail4"
                   />
                 </div>
-                <div class="col-md-6 offset-md-3 mb-2">
-                  <p class="mb-1">Hobby</p>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="inlineCheckbox1"
-                      value="opcao1"
-                    />
-                    <label class="form-check-label" for="inlineCheckbox1">Games</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="inlineCheckbox2"
-                      value="opcao2"
-                    />
-                    <label class="form-check-label" for="inlineCheckbox2">Studies</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="inlineCheckbox3"
-                      value="opcao3"
-                    />
-                    <label class="form-check-label" for="inlineCheckbox3">E-Sports</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="inlineCheckbox4"
-                      value="opcao4"
-                    />
-                    <label class="form-check-label" for="inlineCheckbox4">Trips</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="inlineCheckbox5"
-                      value="opcao5"
-                    />
-                    <label class="form-check-label" for="inlineCheckbox5">Bodybuilding</label>
-                  </div>
+                <div class="col-md-4 mb-2">
+                  <label for="inputPassword4">Last Name</label>
+                  <input type="text" class="form-control colorInput" id="inputPassword4" />
                 </div>
-                <div class="col-md-6 offset-md-3 mb-2">
-                  <label for="exampleFormControlSelect1" class="form-label">Topic</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option selected>Choose a topic</option>
-                    <option>Praise</option>
-                    <option>Suggestion</option>
-                    <option>Criticism</option>
-                  </select>
+              </div>
+              <div class="col-md-6 offset-md-3 mb-2">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="form-control colorInput"
+                  id="exampleFormControlInput1"
+                  placeholder="nome@exemplo.com"
+                />
+              </div>
+              <div class="col-md-6 offset-md-3 mb-2">
+                <p class="mb-1">Hobby</p>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input colorInput"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="inlineRadio1">Game</label>
                 </div>
-                <div class="col-md-6 offset-md-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Leave your message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Write your message here..."></textarea>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input colorInput"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2">Study</label>
                 </div>
-                <div class="d-flex justify-content-center m-3">
-                  <button type="button" id="buttonSubmit" class="btn btn-dark">Submit</button>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input colorInput"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio3"
+                    value="option3"
+                  />
+                  <label class="form-check-label" for="inlineRadio3">Gym</label>
                 </div>
-              </form>
-            </div>
-          </section>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input colorInput"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio4"
+                    value="option4"
+                  />
+                  <label class="form-check-label" for="inlineRadio4">Trip</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input colorInput"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio5"
+                    value="option5"
+                  />
+                  <label class="form-check-label" for="inlineRadio5">Sport</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input colorInput"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio6"
+                    value="option6"
+                  />
+                  <label class="form-check-label" for="inlineRadio6">Music</label>
+                </div>
+              </div>
+              <div class="col-md-6 offset-md-3 mb-2">
+                <label for="exampleFormControlSelect1" class="form-label"
+                  >Topic</label
+                >
+                <select class="form-control colorInput" id="exampleFormControlSelect1">
+                  <option selected>Choose a topic</option>
+                  <option>Praise</option>
+                  <option>Suggestion</option>
+                  <option>Criticism</option>
+                </select>
+              </div>
+              <div class="col-md-6 offset-md-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Leave your message</label
+                >
+                <textarea
+                  class="form-control colorInput"
+                  id="exampleFormControlTextarea1"
+                  rows="2"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+              <div class="d-flex justify-content-center m-3">
+                <button type="button" id="buttonSubmit" class="btn btn-dark">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </main>
       </div>
     </div>
-    
   </body>
 </html>
