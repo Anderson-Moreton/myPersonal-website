@@ -127,15 +127,10 @@ a.navbar-brand.fs-4{
     margin-top: 8px;
 }
 
-.group-1, .group-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.group-1 img, .group-2 img{
-    padding-left: 3px;
-    padding-right: 3px;
+
+.logo-group{
+    margin-left: -14px;
 }
 
 .logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8 {
@@ -145,18 +140,11 @@ a.navbar-brand.fs-4{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 15px;
 }
 
-.description-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* container = container-logo */
+/* box = logo */
 
-.description-logo p {
-    text-align: center;
-}
 /* -----End about me----- */
 
 /*Responsive Design Sidebar */ 
