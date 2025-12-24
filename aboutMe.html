@@ -38,7 +38,7 @@
 
   <body>
     <!-- Start Header -->
-    <div class="main-container d-flex">
+    <div class="main-container d-flex align-items-start">
       <div class="sidebar" id="side_nav">
         <div class="header-box px-2 pt-3 pb-4">
           <button class="btn d-md-none close-btn px-1 py-0 text-white">
@@ -133,6 +133,7 @@
           </div>
         </ul>
       </div>
+
       <!-- End Header -->
       <div class="content">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -150,7 +151,7 @@
             <section>
               <div class="row justify-content-md-center">
                 <div class="imgAbout text-center col-sm-12 col-md-12 col-lg-3">
-                  <img class="img-thumbnail" src="img/aboutMe.jpg" alt="" />
+                  <img class="img-fluid" src="img/aboutMe.jpg" alt="" />
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-9">
                   <h3 class="titleAboutMe">Sobre mim</h3>
@@ -193,59 +194,49 @@
               >
                 <h6>Minhas Habilidades</h6>
               </div>
-              <div class="session-technologies">
+
+              <div class="container">
                 <div class="row mt-3">
-                  <div class="col-6 bg-dark">
-                    <div class="row justify-content-evenly">
+                  <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3"
+                  >
+                    <div class="row justify-content-evenly p-3">
                       <div class="logo1 col-2">
-                        <img src="img/html5.png" alt="" />
+                        <img src="img/html5.png" class="img-fluid" />
                       </div>
                       <div class="logo2 col-2">
-                        <img src="img/css.png" alt="" />
+                        <img src="img/css.png" class="img-fluid" />
                       </div>
                       <div class="logo3 col-2">
-                        <img src="img/javascript.png" alt="" />
+                        <img src="img/javascript.png" class="img-fluid" />
                       </div>
                       <div class="logo4 col-2">
-                        <img src="img/bootstrap.png" alt="" />
+                        <img src="img/bootstrap.png" class="img-fluid" />
+                      </div>
+                    </div>
+                    <div class="row mt-1 justify-content-evenly p-3">
+                      <div class="logo5 col-2">
+                        <img src="img/node-js.png" class="img-fluid" />
+                      </div>
+                      <div class="logo6 col-2">
+                        <img src="img/mysql.png" class="img-fluid" />
+                      </div>
+                      <div class="logo7 col-2">
+                        <img src="img/angular.png" class="img-fluid" />
+                      </div>
+                      <div class="logo8 col-2">
+                        <img src="img/docker.png" class="img-fluid" />
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-6 bg-dark">
-                    <div class="row justify-content-evenly">
-                      <div class="logo1 col-2">
-                        <img src="img/html5.png" alt="" />
-                      </div>
-                      <div class="logo2 col-2">
-                        <img src="img/css.png" alt="" />
-                      </div>
-                      <div class="logo3 col-2">
-                        <img src="img/javascript.png" alt="" />
-                      </div>
-                      <div class="logo4 col-2">
-                        <img src="img/bootstrap.png" alt="" />
-                      </div>
-                    </div>
+                  <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 d-flex justify-content-center align-items-center mt-3"
+                  >
+                    <p class="d-flex text-center p-5">
+                      Passe o mouse nas imagens<br /><br />ler a descrição
+                    </p>
                   </div>
                 </div>
-                <div class="row align-items-center">
-                  <div class="col">One of three columns
-                    
-                  </div>
-                </div>
-                <!-- <div class="col-6 bg-danger">
-                  <div class="row" id="description-skill">
-                    <div
-                      class="d-flex justify-content-center align-items-center"
-                    >
-                      <p class="d-flex text-center">
-                        Passe o mouse nas imagens<br />para ler a descrição
-                      </p>
-                    </div>
-                  </div>
-                </div> -->
               </div>
             </section>
           </div>
