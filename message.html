@@ -41,7 +41,7 @@
 
   <body>
     <!-- Start Header -->
-    <div class="main-container d-flex">
+    <div class="main-container d-flex align-items-start">
       <div class="sidebar" id="side_nav">
         <div class="header-box px-2 pt-3 pb-4">
           <button class="btn d-md-none close-btn px-1 py-0 text-white">
@@ -68,7 +68,7 @@
           </li>
           <li>
             <a
-              href="#"
+              href="./aboutMe.html"
               class="text-decoration-none text-center px-3 py-2 d-block"
             >
               <i class="bi bi-file-earmark-person"></i> About me
@@ -137,6 +137,7 @@
         </ul>
       </div>
       <!-- End Header -->
+
       <div class="content">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
@@ -168,17 +169,21 @@
             </div>
             <form>
               <div class="d-flex justify-content-center">
-                <div class="col-md-2 mb-2 me-2">
+                <div class="col-4 col-md-2 mb-2 me-2">
                   <label for="inputEmail4">First Name</label>
                   <input
                     type="text"
-                    class="form-control colorInput"
+                    class="form-control colorInput heightInput"
                     id="inputEmail4"
                   />
                 </div>
-                <div class="col-md-4 mb-2">
+                <div class="col-8 col-md-4 mb-2">
                   <label for="inputPassword4">Last Name</label>
-                  <input type="text" class="form-control colorInput" id="inputPassword4" />
+                  <input
+                    type="text"
+                    class="form-control colorInput heightInput"
+                    id="inputPassword4"
+                  />
                 </div>
               </div>
               <div class="col-md-6 offset-md-3 mb-2">
@@ -187,7 +192,7 @@
                 >
                 <input
                   type="email"
-                  class="form-control colorInput"
+                  class="form-control colorInput heightInput"
                   id="exampleFormControlInput1"
                   placeholder="nome@exemplo.com"
                 />
@@ -202,7 +207,9 @@
                     id="inlineRadio1"
                     value="option1"
                   />
-                  <label class="form-check-label" for="inlineRadio1">Game</label>
+                  <label class="form-check-label" for="inlineRadio1"
+                    >Game</label
+                  >
                 </div>
                 <div class="form-check form-check-inline">
                   <input
@@ -212,7 +219,9 @@
                     id="inlineRadio2"
                     value="option2"
                   />
-                  <label class="form-check-label" for="inlineRadio2">Study</label>
+                  <label class="form-check-label" for="inlineRadio2"
+                    >Study</label
+                  >
                 </div>
                 <div class="form-check form-check-inline">
                   <input
@@ -232,7 +241,9 @@
                     id="inlineRadio4"
                     value="option4"
                   />
-                  <label class="form-check-label" for="inlineRadio4">Trip</label>
+                  <label class="form-check-label" for="inlineRadio4"
+                    >Trip</label
+                  >
                 </div>
                 <div class="form-check form-check-inline">
                   <input
@@ -242,7 +253,9 @@
                     id="inlineRadio5"
                     value="option5"
                   />
-                  <label class="form-check-label" for="inlineRadio5">Sport</label>
+                  <label class="form-check-label" for="inlineRadio5"
+                    >Sport</label
+                  >
                 </div>
                 <div class="form-check form-check-inline">
                   <input
@@ -252,14 +265,19 @@
                     id="inlineRadio6"
                     value="option6"
                   />
-                  <label class="form-check-label" for="inlineRadio6">Music</label>
+                  <label class="form-check-label" for="inlineRadio6"
+                    >Music</label
+                  >
                 </div>
               </div>
               <div class="col-md-6 offset-md-3 mb-2">
                 <label for="exampleFormControlSelect1" class="form-label"
                   >Topic</label
                 >
-                <select class="form-control colorInput" id="exampleFormControlSelect1">
+                <select
+                  class="form-control colorInput heightInput"
+                  id="exampleFormControlSelect1"
+                >
                   <option selected>Choose a topic</option>
                   <option>Praise</option>
                   <option>Suggestion</option>

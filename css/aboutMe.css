@@ -90,14 +90,21 @@ a.navbar-brand.fs-4{
 
 
 /* ----------About Me---------- */
-/* .imgAbout {
-    background-color: red;
-} */
+.imgAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
 
 .imgAbout img {
-    margin-top: 60px;
-    margin-left: 10px;
     border-radius: 10px;
+    padding: 2px;
+    /* object-fit: cover; */
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .about-text {
@@ -132,8 +139,6 @@ a.navbar-brand.fs-4{
     margin-top: 8px;
 }
 
-
-
 .logo-group{
     margin-left: -14px;
 }
@@ -145,6 +150,7 @@ a.navbar-brand.fs-4{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 /* container = container-logo */

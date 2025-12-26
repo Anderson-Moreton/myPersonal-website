@@ -8,13 +8,18 @@
     background: #060D15;
     min-width: 250px;
     max-width: 250px;
-    transition: all 0.3s;
+    min-height: 100vh;
+    /* transition: all 0.3s; */
+    position: sticky;
+    top: 0;
 }
 
 .content{
     background: #eee;
-    min-height: 100vh;
     width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 } 
 
 .logo-profile {
@@ -83,6 +88,7 @@ a.navbar-brand.fs-4{
 
 /* End Sidebar */
 
+
 /* Reporitory */
 
 /* #repository {
@@ -100,6 +106,7 @@ a.navbar-brand.fs-4{
 
 #card-item{
     border: 2px solid #1C1C1C;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .card img {

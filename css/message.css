@@ -8,13 +8,18 @@
     background: #060D15;
     min-width: 250px;
     max-width: 250px;
-    transition: all 0.3s;
+    min-height: 100vh;
+    /* transition: all 0.3s; */
+    position: sticky;
+    top: 0;
 }
 
 .content{
     background: #eee;
-    min-height: 100vh;
     width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 } 
 
 .logo-profile {
@@ -82,6 +87,7 @@ a.navbar-brand.fs-4{
 /* End NAVBAR Expand */
 
 /* End Sidebar */
+
 
 /* ----- Message page ----- */
 .form-upload {
@@ -164,6 +170,10 @@ a.navbar-brand.fs-4{
 /* Input*/
 form .colorInput{
     border: 1px solid #B5B1A7;
+}
+
+form .heightInput{
+    height: 32px;
 }
 
 form .colorInput:focus {
