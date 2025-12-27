@@ -127,56 +127,107 @@ a.navbar-brand.fs-4{
 
 /*Session Deposition*/
 
-.title-deposition {
-    background-color: #060D15;
-    height: 36px;
-    width: auto;
-    margin-top: 10px;
+.title-depositions { 
+    background-color: #060D15; 
+    height: 36px; 
+    width: auto; 
 }
 
-.title-deposition h4 {
-    font-size: 20px;
-    color: #FFF;
-    text-align: center;
-    margin-top: 8px;
+.title-depositions h4 { 
+    font-size: 24px; 
+    color: #FFF; 
 }
 
+/* Testimonial card */
 .deposition {
-    border: 1px solid #060D15;
+    border: 6px solid #060D15;
     border-radius: 10px;
-    text-align: justify;
-    padding: 8px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    padding: 6px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+    height: 100%; /* ensures the card fills the column height */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.titleDepoiment {
+/* Hover effect */
+.deposition:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Testimonial title */
+.title-deposition {
     font-size: 16px;
-    margin-top: 10px;
     font-weight: bold;
+    color: #060D15;
 }
 
+/* Hobby text */
 .item-deposition span {
     font-size: 12px;
-    margin-bottom: 5px;
+    color: #555;
 }
 
-.image-deposition img{
+/* Avatar image */
+.image-deposition img {
     height: 60px;
     width: 60px;
     border-radius: 50%;
 }
 
+/* Testimonial text */
 .depoiment {
-    font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 0px;
-} 
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+/* Make all columns in the row the same height */
+.row.align-items-stretch > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Like container */
+.like-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+/* Like number */
+.like-count {
+  font-size: 13px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Heart icon */
+.like-icon {
+  font-size: 20px;
+  color: #999;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.like-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Liked state */
+.like-icon.liked {
+  color: #e63946;
+}
 
 /*Footer*/
 
-.line {
+/* .line {
     width: 96%;
     margin: 10px
 }
@@ -184,7 +235,7 @@ a.navbar-brand.fs-4{
 footer p {
     font-size: 14px;
 
-}
+} */
 
 /* End Footer */
 

@@ -18,3 +18,25 @@ const loadImage = (e) => {
 };
 
 imageField.addEventListener("change", loadImage);
+
+// Like
+document.querySelectorAll('.like-container').forEach(container => {
+    const icon = container.querySelector('.like-icon');
+    const count = container.querySelector('.like-count');
+    let liked = false;
+
+    icon.addEventListener('click', () => {
+      liked = !liked;
+      let current = parseInt(count.textContent);
+
+      if (liked) {
+        count.textContent = current + 1;
+        icon.classList.add('liked');
+        icon.classList.replace('bi-heart', 'bi-heart-fill');
+      } else {
+        count.textContent = current - 1;
+        icon.classList.remove('liked');
+        icon.classList.replace('bi-heart-fill', 'bi-heart');
+      }
+    });
+  });
