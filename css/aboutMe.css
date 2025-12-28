@@ -1,7 +1,7 @@
 *{
     font-family: Candara;
     font-weight: 400;
-  }
+}
 
 /* Sidebar */
 #side_nav{
@@ -9,7 +9,6 @@
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
-    /* transition: all 0.3s; */
     position: sticky;
     top: 0;
 }
@@ -43,8 +42,6 @@ h1::after{
     100%{opacity: 1;}
 }
 
-
-
 .sidebar li a, .sidebar li a:hover{
     color: #3EFFBE;
     transition: 1s;
@@ -67,14 +64,13 @@ h1::after{
     font-size: 30px;
 }
 
-/* NAVBAR Expand */
+/* Navbar expand */
 .navbar.navbar-expand-lg.navbar-light.bg-light{
     padding: 0;
 }
 
 .container-fluid{
     background-color: #060D15;
-    
 }
 
 a.navbar-brand.fs-4{
@@ -84,24 +80,17 @@ a.navbar-brand.fs-4{
 .bi-list::before{
     color: #FFF;
 }
-/* End NAVBAR Expand */
 
-/* End Sidebar */
-
-
-/* ----------About Me---------- */
+/* About Me */
 .imgAbout{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: auto;
 }
 
 .imgAbout img {
     border-radius: 10px;
     padding: 2px;
-    /* object-fit: cover; */
     object-fit: contain;
     object-position: center;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
@@ -117,7 +106,7 @@ a.navbar-brand.fs-4{
     margin-left: 8px;
 }
 
-.pOne, .pTwo, .pThree, .pFour {
+.pOne, .pTwo, .pThree {
     margin-top: -10px;
     margin-left: 5px;
     margin-right: 18px;
@@ -125,6 +114,7 @@ a.navbar-brand.fs-4{
     text-align: justify;
 }
 
+/* Skills */
 .title-habilities {
     background-color: #060D15;
     height: 36px;
@@ -139,10 +129,6 @@ a.navbar-brand.fs-4{
     margin-top: 8px;
 }
 
-.logo-group{
-    margin-left: -14px;
-}
-
 .logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8 {
     border: 1px solid #1C1C1C;
     border-radius: 10px;
@@ -151,14 +137,82 @@ a.navbar-brand.fs-4{
     justify-content: center;
     align-items: center;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* container = container-logo */
-/* box = logo */
+/* Hover effect for logos */
+.logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover,
+.logo5:hover, .logo6:hover, .logo7:hover, .logo8:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+}
 
-/* -----End about me----- */
+#marginBotttom{
+    margin-bottom: 14px;
+}
 
-/*Responsive Design Sidebar */ 
+.modal-container {
+    min-height: 200px;
+    width: 100%;
+    padding-right: 30px;
+}
+
+.modal-content {
+    width: 100%;
+    background-color: #060D15;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.35);
+    text-align: left;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.modal-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-content .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #3EFFBE;
+}
+
+.modal-content .level {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #060D15;
+}
+
+.modal-content .description {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: #060D15;
+}
+
+.star-container {
+    display: flex;
+    gap: 6px;
+}
+
+.star {
+    font-size: 22px;
+    color: #444;
+}
+
+.star.filled {
+    color: #FFD700;
+}
+
 @media(max-width:767px){
     #side_nav{
         margin-left: -250px;
