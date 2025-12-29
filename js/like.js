@@ -1,5 +1,4 @@
-
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { 
 
     document.querySelectorAll('.like-container').forEach(container => {
       const icon = container.querySelector('.like-icon');

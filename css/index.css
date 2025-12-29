@@ -1,197 +1,197 @@
-*{
-    font-family: Candara;
-    font-weight: 400;
-  }
-
-/* Sidebar */
-#side_nav{
-    background: #060D15;
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
-    /* transition: all 0.3s; */
-    position: sticky;
-    top: 0;
-}
-
-.content{
-    background: #eee;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: Candara;
+  font-weight: 400;
 } 
 
+/* Sidebar */
+#side_nav {
+  background: #060d15;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh; /* transition: all 0.3s; */
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  background: #eee;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 .logo-profile {
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
-    border: 2px solid #FFF;
-    margin: 20px 45px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 20px 45px;
 }
 
-h1::after{
-    content: '|';
-    color: #FFF;
+h1::after {
+  content: "|";
+  color: #fff;
+  opacity: 1;
+  animation: flashing 1s infinite;
+}
+
+@keyframes flashing {
+  0% {
     opacity: 1;
-    animation: flashing 1s infinite;   
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes flashing{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
-}
-
-
-
-.sidebar li a, .sidebar li a:hover{
-    color: #3EFFBE;
-    transition: 1s;
+.sidebar li a,
+.sidebar li a:hover {
+  color: #3effbe;
+  transition: 1s;
 }
 
 .sidebar li a {
-    color: #FFF;
+  color: #fff;
 }
 
-.icons{
-    display: flex;
-    justify-content: space-around;  
+.icons {
+  display: flex;
+  justify-content: space-around;
 }
 
-.bi-x-square{
-    margin-left: 200px;
+.bi-x-square {
+  margin-left: 200px;
 }
 
-.bi-github, .bi-instagram, .bi-linkedin, .bi-discord{
-    font-size: 30px;
-}
+.bi-github,
+.bi-instagram,
+.bi-linkedin,
+.bi-discord {
+  font-size: 30px;
+} 
 
 /* NAVBAR Expand */
-.navbar.navbar-expand-lg.navbar-light.bg-light{
-    padding: 0;
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0;
 }
 
-.container-fluid{
-    background-color: #060D15;
-    
+.container-fluid {
+  background-color: #060d15;
 }
 
-a.navbar-brand.fs-4{
-    color: #FFF;
+a.navbar-brand.fs-4 {
+  color: #fff;
 }
 
-.bi-list::before{
-    color: #FFF;
-}
-/* End NAVBAR Expand */
+.bi-list::before {
+  color: #fff;
+} 
 
-/* End Sidebar */
-
-
-/*Content home*/
-
- #session-welcome h3 {
-    margin-top: 30px;
-    font-size: 22px;
-    text-align: center;
+/* End NAVBAR Expand */ /* End Sidebar */ /*Content home*/
+#session-welcome h3 {
+  margin-top: 30px;
+  font-size: 22px;
+  text-align: center;
 }
 
 #session-welcome h5 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
 }
 
 .banner img {
-    border-radius: 10px;
-    padding: 2px;
-    /* object-fit: cover; */
-    object-fit: contain;
-    object-position: center;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 2px; /* object-fit: cover; */
+  object-fit: contain;
+  object-position: center;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
 .about-text {
-    text-align: justify;
-    font-size: 14px;
+  text-align: justify;
+  font-size: 14px;
 } 
 
 /*Session Deposition*/
-
-.title-depositions { 
-    background-color: #060D15; 
-    height: 36px; 
-    width: auto; 
+.title-depositions {
+  background-color: #060d15;
+  height: 36px;
+  width: auto;
 }
 
-.title-depositions h4 { 
-    font-size: 24px; 
-    color: #FFF; 
-}
+.title-depositions h4 {
+  font-size: 24px;
+  color: #fff;
+} 
 
 /* Testimonial card */
 .deposition {
-    border: 6px solid #060D15;
-    border-radius: 10px;
-    padding: 6px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #fff;
-    height: 100%; /* ensures the card fills the column height */
-    transition: transform 0.3s, box-shadow 0.3s;
-}
+  border: 6px solid #060d15;
+  border-radius: 10px;
+  padding: 6px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #fff;
+  height: 100%; /* ensures the card fills the column height */
+  transition: transform 0.3s, box-shadow 0.3s;
+} 
 
 /* Hover effect */
 .deposition:hover {
-    transform: translateY(-5px);
-    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
-}
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+} 
 
 /* Testimonial title */
 .title-deposition {
-    font-size: 16px;
-    font-weight: bold;
-    color: #060D15;
-}
+  font-size: 16px;
+  font-weight: bold;
+  color: #060d15;
+} 
 
 /* Hobby text */
 .item-deposition span {
-    font-size: 12px;
-    color: #555;
+  font-size: 12px;
+  color: #555;
 }
 
 /* Avatar image */
 .image-deposition img {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-}
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+} 
 
 /* Testimonial text */
 .depoiment {
-    font-size: 14px;
-    font-weight: normal;
-    color: #222;
-    text-align: justify;
-    margin-bottom: 0;
-}
+  font-size: 14px;
+  font-weight: normal;
+  color: #222;
+  text-align: justify;
+  margin-bottom: 0;
+} 
 
 /* Make all columns in the row the same height */
-.row.align-items-stretch > [class*='col-'] {
-    display: flex;
-    flex-direction: column;
-}
+.row.align-items-stretch > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+} 
 
 /* Like container */
 .like-container {
@@ -199,14 +199,14 @@ a.navbar-brand.fs-4{
   align-items: center;
   gap: 6px;
   justify-content: flex-end;
-}
+} 
 
 /* Like number */
 .like-count {
   font-size: 13px;
   font-weight: bold;
   color: #555;
-}
+} 
 
 /* Heart icon */
 .like-icon {
@@ -218,36 +218,22 @@ a.navbar-brand.fs-4{
 
 .like-icon:hover {
   transform: scale(1.2);
-}
+} 
 
 /* Liked state */
 .like-icon.liked {
   color: #e63946;
-}
+} 
 
-/*Footer*/
-
-/* .line {
-    width: 96%;
-    margin: 10px
-}
-
-footer p {
-    font-size: 14px;
-
-} */
-
-/* End Footer */
-
-
-@media(max-width:767px){
-    #side_nav{
-        margin-left: -250px;
-        position: fixed;
-        min-height: 100vh;
-        z-index: 1;
-    }
-    #side_nav.active{
-        margin-left: 0;
-    }
+/*Footer*/ /* .line { width: 96%; margin: 10px } footer p { font-size: 14px; } */ /* End Footer */
+@media (max-width: 767px) {
+  #side_nav {
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 1;
+  }
+  #side_nav.active {
+    margin-left: 0;
+  }
 }

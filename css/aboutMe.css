@@ -19,6 +19,7 @@
     height: auto;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 } 
 
 .logo-profile {
@@ -166,6 +167,8 @@ a.navbar-brand.fs-4{
     border-radius: 12px;
     padding: 20px;
     margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
     box-shadow: 0 8px 22px rgba(0,0,0,0.35);
     text-align: left;
     opacity: 0;
@@ -175,7 +178,7 @@ a.navbar-brand.fs-4{
 
 .modal-content.show {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-10px);
 }
 
 .modal-content .name {
